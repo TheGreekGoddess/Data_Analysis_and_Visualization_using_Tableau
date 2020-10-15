@@ -17,8 +17,8 @@ Bike IDs 25806, 26136, 21148, 14602, and 24862 show an average of 5.5k miles tra
 ## STATION ANALYSIS
 The overall unique station counts have almost tripled in 2020 as compared to 2013. West St & Chambers St. has the highest total rides for both start and end stations of all the years.
 
-PHENOMENON: YEAR TO DATE 2020 MONTH ON MONTH ANALYSIS
-MOM % CHANGE ANALYSIS
+# PHENOMENON: YEAR TO DATE 2020 MONTH ON MONTH ANALYSIS
+## MOM % CHANGE ANALYSIS
 The overall rides for July through September (Quarter 3, 2020) are almost the same as January through June (Quarter 1 and 2, 2020). The users appear to be stepping out more often in the summer months and for longer ride durations and miles traveled.
 
 ## GENDER AND USER ANALYSIS
