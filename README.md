@@ -1,7 +1,7 @@
 # Tableau Homework - Citi Bike Analytics
 
-YEAR ON YEAR ANALYSIS OF THE MONTH OF JULY FROM 2013 TO 2020
-YOY % CHANGE ANALYSIS
+# YEAR ON YEAR ANALYSIS OF THE MONTH OF JULY FROM 2013 TO 2020
+## YOY % CHANGE ANALYSIS
 Considering the data set starts in 2013, it is unsure if the spike in total rider was due to launch as 2014 saw a -43% drop. There has been a steady incline in overall rides YOY (Year On Year).
 Trip durations in 2020 are 48% higher YOY and could be due to users working-from-home and having more leisure time.
 
