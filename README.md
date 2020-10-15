@@ -1,65 +1,46 @@
 # Tableau Homework - Citi Bike Analytics
 
-## Background
-![Citi-Bikes](Images/citi-bike-station-bikes.jpg)
-Congratulations on your new job! As the new lead analyst for the [New York Citi Bike](https://en.wikipedia.org/wiki/Citi_Bike) Program, you are now responsible for overseeing the largest bike sharing program in the United States. In your new role, you will be expected to generate regular reports for city officials looking to publicize and improve the city program.
-Since 2013, the Citi Bike Program has implemented a robust infrastructure for collecting data on the program's utilization. Through the team's efforts, each month bike data is collected, organized, and made public on the [Citi Bike Data](https://www.citibikenyc.com/system-data) webpage. However, while the data has been regularly updated, the team has yet to implement a dashboard or sophisticated reporting process. City officials have a number of questions on the program, so your first task on the job is to build a set of data reports to provide the answers.
+YEAR ON YEAR ANALYSIS OF THE MONTH OF JULY FROM 2013 TO 2020
+YOY % CHANGE ANALYSIS
+Considering the data set starts in 2013, it is unsure if the spike in total rider was due to launch as 2014 saw a -43% drop. There has been a steady incline in overall rides YOY (Year On Year).
+Trip durations in 2020 are 48% higher YOY and could be due to users working-from-home and having more leisure time.
 
-## Task
-**Your task in this assignment is to aggregate the data found in the Citi Bike Trip History Logs and find two unexpected phenomena.**
-**Design 2-5 visualizations for each discovered phenomena (4-10 total). You may work with a timespan of your choosing. Optionally, you may merge multiple datasets from different periods.**
-**The following are some questions you may wish to tackle. Do not limit yourself to these questions; they are suggestions for a starting point. Be creative!**
-* How many trips have been recorded total during the chosen period?
-* By what percentage has total ridership grown?
-* How has the proportion of short-term customers and annual subscribers changed?
-* What are the peak hours in which bikes are used during summer months?
-* What are the peak hours in which bikes are used during winter months?
-* Today, what are the top 10 stations in the city for starting a journey? (Based on data, why do you hypothesize these are the top locations?)
-* Today, what are the top 10 stations in the city for ending a journey? (Based on data, why?)
-* Today, what are the bottom 10 stations in the city for starting a journey? (Based on data, why?)
-* Today, what are the bottom 10 stations in the city for ending a journey (Based on data, why?)
-* Today, what is the gender breakdown of active participants (Male v. Female)?
-* How effective has gender outreach been in increasing female ridership over the timespan?
-* How does the average trip duration change by age?
-* What is the average distance in miles that a bike is ridden?
-* Which bikes (by ID) are most likely due for repair or inspection in the timespan?
-* How variable is the utilization by bike ID?
+GENDER ANALYSIS
+Males have consistently averaged at low to mid 50% of the overall users. 2020 has seen a -17% drop compared to the 2019 user base.
+Start times seem to be consistent across both genders. 2013 to 2019, data reflects a steep decline at 10:00 a.m. as compared to 2020. Male users have a slight dip while female and unknown users don't have a 10 a.m slope.
 
-**Next, as a chronic over-achiever:**
-* Use your visualizations (does not have to be all of them) to design a dashboard for each phenomena.
-* The dashboards should be accompanied with an analysis explaining why the phenomena may be occuring. 
+DAY OF WEEK ANALYSIS
+The weekends in summer tend to see lower overall rides as compared to the rest of the week and could be due to folks entertaining at home.
+Surprisingly Wednesdays tend to be the leading on all three criteria: total rides, miles traveled, and trip duration.
 
-**City officials would also like to see one of the following visualizations:**
-* **Basic:** A static map that plots all bike stations with a visual indication of the most popular locations to start and end a journey with zip code data overlaid on top.
-* **Advanced:** A dynamic map that shows how each station's popularity changes over time (by month and year). Again, with zip code data overlaid on the map.
-* The map you choose should also be accompanied by a write-up unveiling any trends that were noticed during your analysis.
+BIKE ID ANALYSIS
+Bike IDs 25806, 26136, 21148, 14602, and 24862 show an average of 5.5k miles traveled for 2016 and hence are omitted to prevent skewed visualizations. These five bikes reflect comparatively fewer miles in 2017. Bike ID 21148 has no data since 2017, so this bike may likely be decommissioned.
+2013 appears to be the year with the highest overall trips and miles traveled by Bike ID.
 
-**Finally, create your final presentation**
-* Create a Tableau story that brings together the visualizations, requested maps, and dashboards.
-* This is what will be presented to the officials, so be sure to make it professional, logical, and visually appealing. 
+STATION ANALYSIS
+The overall unique station counts have almost tripled in 2020 as compared to 2013.
+West St & Chambers St has the highest total rides for both start and end stations of all the years.
 
-## Considerations
-Remember, the people reading your analysis will **NOT** be data analysts. Your audience will be city officials, public administrators, and heads of New York City departments. Your data and analysis needs to be presented in a way that is focused, concise, easy-to-understand, and visually compelling. Your visualizations should be colorful enough to be included in press releases, and your analysis should be thoughtful enough for dictating programmatic changes. 
+YEAR TO DATE 2020 MONTH ON MONTH ANALYSIS
+MOM % CHANGE ANALYSIS
+The overall rides for July through September (Quarter 3, 2020) are almost the same as January through June (Quarter 1 and 2, 2020).
+The users have stepped out more often in the summer months for longer ride durations and miles.
 
-## Submission 
-Your final submission should include:
-* A link to your Tableau Public workbook that includes: 
-  * 4-10 Total "Phenomenon" Visualizations 
-  * 2 Dashboards
-  * 1 City Official Map
-  * 1 Story 
-* A text or markdown file with your analysis on the phenomenons you uncovered from the data.
+GENDER ANALYSIS
+COVID shelter-in-place mandate was issued around mid-March and could be why the April numbers are the lowest for 2020.
+As users resumed their routines by May 2020, we see an incline in ridership across the board.
+Both males and female users age spans from 16 - 70. There are some outliers over 100 years in age and hence have been omitted.
 
-## Sharing Your Work
-In order to share your work, we are asking that you will save your workbook as a .twbx file so that your TA's can grade them. To save your workbook as a .twbx file, you will just need to select "Save As..." from the "File" dropdown. Then, select the .twbx option.
+DAY OF WEEK ANALYSIS
+I am not sure if there was an event that led to a sudden spike in user activity for total miles traveled on July 17th and 20th so, I omitted them.
+Users tend to travel the most miles on Saturdays and the least on Mondays.
 
-## Assessment
-Your final product will be assessed on the following metrics:
-* Analytic Rigor
-* Readability
-* Visual Attraction
+BIKE ID ANALYSIS
+Bike IDs 40831 and 44683 shows 5,443 and 5,437 miles in July. Hence I have omitted these from the dataset as they're outliers. These bikes may most likely need repairs.
+The total ride counts by bike ID are lower in the first four months of the year than the following four months, which could be due to the COVID-related work-from-home mandate in early 2020.
 
-* Treat this as a serious endeavor! This is an opportunity to show future employers that you have what it takes to be a top-notch analyst.
-* Good luck!
-### Copyright
-Data Boot Camp © 2020. All Rights Reserved.
+STATION ANALYSIS
+Grove St PATH has the highest total rides for both start and end stations for 2020. It has about 4.5k female users and almost 2.5 times male users at 12k.
+Only about 20% of the start and end stations have recorded more than 10k rides so far.
+
+Perhaps once a vaccine is found, we may see these trends normalize.
